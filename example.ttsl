@@ -1,0 +1,10 @@
+type Person
+  name : String
+  age : Int
+
+type Message
+  from : Person
+  to : Person
+  message : String
+  date : Date
+  time : Time

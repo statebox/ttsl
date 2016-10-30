@@ -1,0 +1,16 @@
+{
+  "name": "ttsl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/pegjs -o build/parser.js language.pegjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pegjs": "^0.10.0",
+    "ramda": "^0.22.1"
+  }
+}
